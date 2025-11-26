@@ -5,12 +5,9 @@ A simple implementation of IBM's Carbon AI Chat component.
 ## Features
 
 - 🤖 AI-enabled chat interface
-- 🚀 Floating launcher button
-- 🏠 Home screen with starter prompts
-- 💬 Real-time messaging interface
 - 🔌 LangFlow-powered responses via DataStax & Groq
 - 🎨 Modern Carbon Design System styling
-- Ingest document on Astra DB (roadmap)
+- 🚀 Ingest document on Astra DB (roadmap)
 
 <img width="1703" height="859" alt="Screenshot 2025-11-26 at 7 30 28" src="https://github.com/user-attachments/assets/5379ab39-6791-4ac3-aab5-a9f74a868240" />
 
