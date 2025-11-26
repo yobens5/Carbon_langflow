@@ -67,25 +67,6 @@ This demo uses the `@carbon/ai-chat` React component with:
 2. **Home Screen**: Welcome screen with starter prompt buttons
 3. **LangFlow Integration**: Requests are proxied to your DataStax-hosted flow for real answers
 
-## Architecture
-
-```mermaid
-graph TD
-    U[End User<br>Browser] -->|Types message| UI[React App<br>Carbon ChatContainer]
-    UI -->|customSendMessage| MSG[Messaging Layer<br>(App.jsx)]
-    MSG -->|POST chat payload<br>with session_id| LF[LangFlow HTTP Endpoint]
-    LF -->|JSON reply| MSG
-    MSG -->|buildTextResponse| UI
-    subgraph Vite Runtime
-        UI
-        MSG
-    end
-    subgraph Env Config
-        ENV[LANGFLOW_URL<br>LANGFLOW_ORG_ID<br>LANGFLOW_TOKEN]
-    end
-    ENV -->|Injected via Vite env| MSG
-    UI -. reset event .->|BusEventType.RESET| SID[Session Manager<br>useRef + regenerateSessionId]
-```
 
 ## Connecting to a Real AI Backend
 
