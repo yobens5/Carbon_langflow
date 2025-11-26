@@ -1,7 +1,6 @@
-# FE Carbon AI Chat 
-# BE Datastax + groq
+# FE Carbon AI Chat / BE Datastax + groq
 
-A simple implementation of IBM's Carbon AI Chat component.
+A simple implementation of IBM's Carbon AI Chat component build on Datastax.
 
 ## Features
 
