@@ -1,0 +1,26 @@
+{
+  "name": "carbon-chat-app",
+  "version": "1.0.0",
+  "description": "Simple Carbon AI Chat implementation",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@carbon/ai-chat": "^1.0.0",
+    "@carbon/icons": "^11.53.0",
+    "@carbon/web-components": "^2.40.1",
+    "lit": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
+  }
+}
+
